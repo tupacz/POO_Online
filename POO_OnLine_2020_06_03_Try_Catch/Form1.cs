@@ -72,7 +72,4 @@ namespace POO_OnLine_2020_06_03_Try_Catch
         public int TemperaturaIngresada { get; set; }
         public override string Message => "La temperatura ingresada excede el límites de 100 grados";
     }
-	   
-	    
-  
 }

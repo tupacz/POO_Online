@@ -28,7 +28,7 @@ namespace PPO_OnLine_2020_Desacoplando_Obj
             dataGridView2.MultiSelect = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Alta_Click(object sender, EventArgs e)
         {
             try 
             {
@@ -54,7 +54,7 @@ namespace PPO_OnLine_2020_Desacoplando_Obj
             pDGV.DataSource = null;pDGV.DataSource = pO;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Baja_Click(object sender, EventArgs e)
         {
             try
             {
@@ -73,7 +73,7 @@ namespace PPO_OnLine_2020_Desacoplando_Obj
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Modificar_Click(object sender, EventArgs e)
         {
             try
             {

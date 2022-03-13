@@ -172,7 +172,5 @@ namespace POO_OnLine_2020_05_06_Repaso_Eventos_y_Grilla
         public string Patente { get; set; }
         public string Marca { get; set; }
         public string Modelo { get; set; }
-
-
     }
 }

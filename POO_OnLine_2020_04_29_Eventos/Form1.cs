@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,35 +56,6 @@ namespace POO_OnLine_2020_04_29_Eventos
         }
 
        
-    }
-
-    public class Calefactor
-    {
-        private int _temp;
-        public event EventHandler<InformacionCalefactorEventArgs> AltaTemperatura;
-        public event EventHandler<InformacionCalefactorEventArgs> BajaTemperatura;
-        public Color TemperaturaAlta { get; set; }
-        public Color TemperaturaBaja { get; set; }
-        public int Temperatura
-        {
-            get { return _temp; }
-            set 
-            { 
-                _temp = value;
-                //if (_temp > 100) { if (!(AltaTemperatura == null)) { AltaTemperatura(this, new EventArgs()); } }
-                if (_temp > 100) { AltaTemperatura?.Invoke(this, new InformacionCalefactorEventArgs(_temp,TemperaturaAlta)); }
-                else { BajaTemperatura?.Invoke(this, new InformacionCalefactorEventArgs(_temp,TemperaturaBaja)); }
-            }
-        }
-    }
-    public class InformacionCalefactorEventArgs : EventArgs
-    {
-        private int _temp; private Color _color;
-        public InformacionCalefactorEventArgs(int pTemp, Color pColor)
-        { _temp = pTemp;_color = pColor; }
-        public int TemperaturaActual { get { return _temp; } }
-        public Color Color { get { return _color; } } 
-
     }
 
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09B9F47D-1280-43EE-91D5-1F892A67785E}</ProjectGuid>
+    <ProjectGuid>{A91E3200-E2D8-4E08-8880-4E76584768E7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>POO_OnLine_2020_06_10_IDisposable</RootNamespace>
-    <AssemblyName>POO_OnLine_2020_06_10_IDisposable</AssemblyName>
+    <RootNamespace>ZULETA_POO_2P</RootNamespace>
+    <AssemblyName>ZULETA_POO_2P</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Clientes.cs" />
+    <Compile Include="Exceptions\ExFormatoPrestamo.cs" />
+    <Compile Include="Exceptions\ExIdRepetido.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,10 +63,19 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Prestamo.cs" />
+    <Compile Include="PrestamoDolares.cs" />
+    <Compile Include="PrestamoPesos.cs" />
+    <Compile Include="Prestamos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VistaPrestamo.cs" />
+    <Compile Include="VistaPrestamoTodos.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_OnLine_2020_07_01_Accio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_OnLine_2020_07_01_ListaClonada", "POO_OnLine_2020_07_01_ListaClonada\POO_OnLine_2020_07_01_ListaClonada.csproj", "{71F358D1-3B2D-4463-80AC-BB94195C1386}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_1_Parcial_Zuleta_Tupac", "POO_1_Parcial_Zuleta_Tupac\POO_1_Parcial_Zuleta_Tupac.csproj", "{3496A295-7C03-4A0A-810A-1F2C298C4C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZULETA_POO_2P", "ZULETA_POO_2P\ZULETA_POO_2P.csproj", "{A91E3200-E2D8-4E08-8880-4E76584768E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{71F358D1-3B2D-4463-80AC-BB94195C1386}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F358D1-3B2D-4463-80AC-BB94195C1386}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F358D1-3B2D-4463-80AC-BB94195C1386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3496A295-7C03-4A0A-810A-1F2C298C4C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3496A295-7C03-4A0A-810A-1F2C298C4C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3496A295-7C03-4A0A-810A-1F2C298C4C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3496A295-7C03-4A0A-810A-1F2C298C4C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91E3200-E2D8-4E08-8880-4E76584768E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91E3200-E2D8-4E08-8880-4E76584768E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91E3200-E2D8-4E08-8880-4E76584768E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91E3200-E2D8-4E08-8880-4E76584768E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
